@@ -1,4 +1,4 @@
-# ViT-FPGA-Accelerator
+# ViT-FPGA-TPU
 FPGA based Vision Transformer accelerator (Harvard CS205)
 
 ![accel_arch](images/accel_arch.png)
