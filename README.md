@@ -31,8 +31,6 @@ FPGA 32x32 code was accidentally deleted from the `code/fpga` directory before t
 - You can move job.sh into build directory and run `./job.sh` to get time benchmarks in output.txt
 - Pretrained weights can be downloaded here: [Drive](https://drive.google.com/drive/folders/1A7SSotTqGF_dax9yL8jX7Qt5W7MeOm-j?usp=share_link) (90%+ acc) or use the one in the folder (~86% accuracy)
 
-## FPGA Verification:
-Please see the video in the root directory for our code's verification on the FPGA side.
 
 ## FPGA Testbench
 Please checkout `code/fpga/test_accel/test_accel.srcs/sim_1/imports/src/` for the testbenches. Please also import the files in `code/fpga/test_accel/test_accel.srcs/sources_1/imports/src/` as the rtl sources. The testbench demonstrates the controller working in parallel with the DMA engine "spad_arbiter". Please feel free to email Eric for further questions.
