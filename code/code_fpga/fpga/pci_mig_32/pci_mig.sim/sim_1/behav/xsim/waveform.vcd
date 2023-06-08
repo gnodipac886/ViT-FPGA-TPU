@@ -1,0 +1,808 @@
+$date
+   Wed Apr  5 04:22:56 2023
+$end
+$version
+  2020.2
+$end
+$timescale
+  1ps
+$end
+$scope module accelerator_tb $end
+$var reg 32 ! timeout $end
+$var reg 1 " clk $end
+$var reg 1 # clk_i $end
+$var reg 1 $ reset_n $end
+$var reg 33 % axi_araddr_dma_i [32:0] $end
+$var reg 8 & axi_arlen_dma_i [7:0] $end
+$var reg 2 ' axi_arburst_dma_i [1:0] $end
+$var reg 1 ( axi_arvalid_dma_i $end
+$var reg 1 ) axi_rready_dma_i $end
+$var reg 1 * axi_arready_mig_i $end
+$var reg 64 + axi_rdata_mig_i [63:0] $end
+$var reg 2 , axi_rresp_mig_i [1:0] $end
+$var reg 1 - axi_rlast_mig_i $end
+$var reg 1 . axi_rvalid_mig_i $end
+$var reg 33 / axi_araddr_mig_o [32:0] $end
+$var reg 8 0 axi_arlen_mig_o [7:0] $end
+$var reg 2 1 axi_arburst_mig_o [1:0] $end
+$var reg 1 2 axi_arvalid_mig_o $end
+$var reg 1 3 axi_rready_mig_o $end
+$var reg 1 4 axi_arready_dma_o $end
+$var reg 64 5 axi_rdata_dma_o [63:0] $end
+$var reg 2 6 axi_rresp_dma_o [1:0] $end
+$var reg 1 7 axi_rlast_dma_o $end
+$var reg 1 8 axi_rvalid_dma_o $end
+$var reg 1 9 _is_accel_addr $end
+$var reg 2 : _state [1:0] $end
+$var reg 64 ; _counter [63:0] $end
+$var reg 2 < _axi_rresp_accel [1:0] $end
+$var reg 1 = _axi_rvalid_accel $end
+$scope module tb_i $end
+$var wire 1 > clk_i $end
+$var wire 1 ? reset_n $end
+$var wire 33 @ axi_araddr_dma_i [32:0] $end
+$var wire 8 A axi_arlen_dma_i [7:0] $end
+$var wire 2 B axi_arburst_dma_i [1:0] $end
+$var wire 1 C axi_arvalid_dma_i $end
+$var wire 1 D axi_rready_dma_i $end
+$var wire 1 E axi_arready_mig_i $end
+$var wire 64 F axi_rdata_mig_i [63:0] $end
+$var wire 2 G axi_rresp_mig_i [1:0] $end
+$var wire 1 H axi_rlast_mig_i $end
+$var wire 1 I axi_rvalid_mig_i $end
+$var reg 33 / axi_araddr_mig_o [32:0] $end
+$var reg 8 0 axi_arlen_mig_o [7:0] $end
+$var reg 2 1 axi_arburst_mig_o [1:0] $end
+$var reg 1 2 axi_arvalid_mig_o $end
+$var reg 1 3 axi_rready_mig_o $end
+$var reg 1 4 axi_arready_dma_o $end
+$var reg 64 5 axi_rdata_dma_o [63:0] $end
+$var reg 2 6 axi_rresp_dma_o [1:0] $end
+$var reg 1 7 axi_rlast_dma_o $end
+$var reg 1 8 axi_rvalid_dma_o $end
+$var reg 1 9 _is_accel_addr $end
+$var reg 1 J _state $end
+$var reg 64 ; _counter [63:0] $end
+$var reg 2 < _axi_rresp_accel [1:0] $end
+$var reg 1 = _axi_rvalid_accel $end
+$var reg 1 K _waiting $end
+$var reg 1 L _axi_rlast_accel $end
+$var reg 1 M _axi_arready_accel $end
+$var reg 1 N _plus_one $end
+$var reg 1 O state $end
+$upscope $end
+$scope module tb_clk $end
+$var reg 1 " tb_clk_clk $end
+$upscope $end
+$scope task reset $end
+$upscope $end
+$scope task accelerator_read $end
+$upscope $end
+$scope task main $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10011100010000 !
+0"
+0#
+0$
+b0 %
+bx &
+bx '
+0(
+0)
+0*
+b0 +
+b0 ,
+x-
+0.
+b0 /
+bx 0
+bx 1
+02
+03
+x4
+bx 5
+b0 6
+x7
+x8
+x9
+bzx :
+bx ;
+b0 <
+x=
+0>
+0?
+b0 @
+bx A
+bx B
+0C
+0D
+0E
+b0 F
+b0 G
+xH
+0I
+xJ
+xK
+xL
+xM
+xN
+xO
+$end
+#5000
+b10011100001111 !
+1"
+1#
+1$
+02
+04
+b0 5
+b0 6
+x7
+08
+09
+bz0 :
+b0 ;
+0=
+1>
+1?
+0J
+0K
+0L
+1M
+0N
+0O
+#10000
+0"
+0#
+0>
+#15000
+b10011100001110 !
+1"
+1#
+1*
+14
+0=
+1>
+1E
+0K
+0L
+1M
+0N
+0O
+#20000
+0"
+0#
+0>
+#25000
+b10011100001101 !
+1"
+1#
+b0 %
+1(
+12
+09
+0=
+1>
+1C
+0K
+0L
+1M
+0N
+0O
+#30000
+0"
+0#
+0>
+#35000
+b10011100001100 !
+1"
+1#
+1)
+13
+0=
+1>
+1D
+0K
+0L
+1M
+0N
+0O
+#40000
+0"
+0#
+0>
+#45000
+b10011100001011 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#50000
+0"
+0#
+0>
+#55000
+b10011100001010 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#60000
+0"
+0#
+0>
+#65000
+b10011100001001 !
+1"
+1#
+0$
+b0 %
+0(
+0)
+0*
+b0 +
+b0 ,
+0.
+02
+03
+04
+09
+0=
+1>
+0?
+0C
+0D
+0E
+b0 F
+0I
+0K
+0L
+1M
+0N
+0O
+#70000
+0"
+0#
+0>
+#75000
+b10011100001000 !
+1"
+1#
+1$
+b0 ;
+0=
+1>
+1?
+0K
+0L
+1M
+0N
+0O
+#80000
+0"
+0#
+0>
+#85000
+b10011100000111 !
+1"
+1#
+0)
+1*
+14
+0=
+1>
+1E
+0K
+0L
+1M
+0N
+0O
+#90000
+0"
+0#
+0>
+#95000
+b10011100000110 !
+1"
+1#
+b11011110101011011011111011101111 %
+1(
+b11011110101011011011111011101111 /
+02
+14
+b0 5
+b0 6
+07
+08
+19
+0=
+1>
+b11011110101011011011111011101111 @
+1C
+0K
+0L
+1M
+0N
+0O
+#100000
+0"
+0#
+0>
+#105000
+b10011100000101 !
+1"
+1#
+0(
+02
+04
+19
+bz1 :
+0=
+1>
+0C
+1J
+0K
+0L
+0M
+0N
+1O
+#110000
+0"
+0#
+0>
+#115000
+b10011100000100 !
+1"
+1#
+14
+1>
+1M
+#120000
+0"
+0#
+0>
+#125000
+b10011100000011 !
+1"
+1#
+1>
+1M
+#130000
+0"
+0#
+0>
+#135000
+b10011100000010 !
+1"
+1#
+1>
+1M
+#140000
+0"
+0#
+0>
+#145000
+b10011100000001 !
+1"
+1#
+1>
+1M
+#150000
+0"
+0#
+0>
+#155000
+b10011100000000 !
+1"
+1#
+1)
+13
+1>
+1D
+1M
+#160000
+0"
+0#
+0>
+#165000
+b10011011111111 !
+1"
+1#
+17
+18
+1=
+1>
+1L
+1M
+1N
+#170000
+0"
+0#
+0>
+#175000
+b10011011111110 !
+1"
+1#
+b0 %
+0(
+0)
+b0 /
+02
+03
+14
+b0 5
+b0 6
+x7
+08
+09
+bz0 :
+b1 ;
+0=
+1>
+b0 @
+0D
+0J
+0L
+1M
+1N
+0O
+#180000
+0"
+0#
+0>
+#185000
+b10011011111101 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#190000
+0"
+0#
+0>
+#195000
+b10011011111100 !
+1"
+1#
+0)
+1*
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#200000
+0"
+0#
+0>
+#205000
+b10011011111011 !
+1"
+1#
+b11011110101011011011111011101111 %
+1(
+b11011110101011011011111011101111 /
+02
+14
+b100000000000000000000000000000000000000000000000000000000 5
+b0 6
+07
+08
+19
+0=
+1>
+b11011110101011011011111011101111 @
+1C
+0K
+0L
+1M
+0N
+0O
+#210000
+0"
+0#
+0>
+#215000
+b10011011111010 !
+1"
+1#
+0(
+02
+04
+19
+bz1 :
+0=
+1>
+0C
+1J
+0K
+0L
+0M
+0N
+1O
+#220000
+0"
+0#
+0>
+#225000
+b10011011111001 !
+1"
+1#
+14
+1>
+1M
+#230000
+0"
+0#
+0>
+#235000
+b10011011111000 !
+1"
+1#
+1>
+1M
+#240000
+0"
+0#
+0>
+#245000
+b10011011110111 !
+1"
+1#
+1>
+1M
+#250000
+0"
+0#
+0>
+#255000
+b10011011110110 !
+1"
+1#
+1>
+1M
+#260000
+0"
+0#
+0>
+#265000
+b10011011110101 !
+1"
+1#
+1)
+13
+1>
+1D
+1M
+#270000
+0"
+0#
+0>
+#275000
+b10011011110100 !
+1"
+1#
+17
+18
+1=
+1>
+1L
+1M
+1N
+#280000
+0"
+0#
+0>
+#285000
+b10011011110011 !
+1"
+1#
+b0 %
+0(
+0)
+b0 /
+02
+03
+14
+b0 5
+b0 6
+x7
+08
+09
+bz0 :
+b10 ;
+0=
+1>
+b0 @
+0D
+0J
+0L
+1M
+1N
+0O
+#290000
+0"
+0#
+0>
+#295000
+b10011011110010 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#300000
+0"
+0#
+0>
+#305000
+b10011011110001 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#310000
+0"
+0#
+0>
+#315000
+b10011011110000 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#320000
+0"
+0#
+0>
+#325000
+b10011011101111 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#330000
+0"
+0#
+0>
+#335000
+b10011011101110 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#340000
+0"
+0#
+0>
+#345000
+b10011011101101 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#350000
+0"
+0#
+0>
+#355000
+b10011011101100 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#360000
+0"
+0#
+0>
+#365000
+b10011011101011 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#370000
+0"
+0#
+0>
+#375000
+b10011011101010 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#380000
+0"
+0#
+0>
+#385000
+b10011011101001 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O
+#390000
+0"
+0#
+0>
+#395000
+b10011011101000 !
+1"
+1#
+0=
+1>
+0K
+0L
+1M
+0N
+0O

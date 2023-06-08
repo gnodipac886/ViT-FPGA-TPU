@@ -1,0 +1,7 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/home/ericdong/workspace/pci_mig/pci_mig.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,axi_vip_v1_1_10;smartconnect_v1_0;uvm;xdma_v4_1_12;xilinx_vip,,,,,,
+/home/ericdong/workspace/pci_mig/pci_mig.srcs/sim_1/new/accelerator_tb.sv,1678209261,systemVerilog,,,,accelerator_tb,,axi_vip_v1_1_10;smartconnect_v1_0;uvm;xdma_v4_1_12;xilinx_vip,../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/22b9/hdl/verilog;../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/43e1/hdl/verilog;../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/80cc/hdl/verilog;../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/ec67/hdl;/tools/Xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,
+/home/ericdong/workspace/pci_mig/pci_mig.srcs/sources_1/new/accelerator.sv,1678209366,systemVerilog,,/home/ericdong/workspace/pci_mig/pci_mig.srcs/sim_1/new/accelerator_tb.sv,,accelerator,,axi_vip_v1_1_10;smartconnect_v1_0;uvm;xdma_v4_1_12;xilinx_vip,../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/22b9/hdl/verilog;../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/43e1/hdl/verilog;../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/80cc/hdl/verilog;../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/ec67/hdl;/tools/Xilinx/Vivado/2021.1/data/xilinx_vip/include,,,,,

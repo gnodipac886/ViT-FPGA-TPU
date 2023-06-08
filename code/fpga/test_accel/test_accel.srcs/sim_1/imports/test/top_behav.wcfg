@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="accelerator_types" />
+            <top_module name="glbl" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3,100.600 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,239.001 ns"></ZoomEndTime>
+      <Cursor1Time time="3,175.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="217"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="group" fp_name="group1180">
+      <obj_property name="label">sys arr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1204">
+      <obj_property name="label">ctl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/clk_i">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+         <obj_property name="label">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/reset_n">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/r_addr_i">
+         <obj_property name="ElementShortName">r_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/r_valid_i">
+         <obj_property name="ElementShortName">r_valid_i</obj_property>
+         <obj_property name="ObjectShortName">r_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_mmio_reg">
+         <obj_property name="ElementShortName">_mmio_reg[0:12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">_mmio_reg[0:12][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group2145">
+         <obj_property name="label">mig_port</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/top/tb_i/dut/mig_port/data">
+            <obj_property name="ElementShortName">data[1023:0]</obj_property>
+            <obj_property name="ObjectShortName">data[1023:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/data_valid">
+            <obj_property name="ElementShortName">data_valid</obj_property>
+            <obj_property name="ObjectShortName">data_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/rw_last">
+            <obj_property name="ElementShortName">rw_last</obj_property>
+            <obj_property name="ObjectShortName">rw_last</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/awready">
+            <obj_property name="ElementShortName">awready</obj_property>
+            <obj_property name="ObjectShortName">awready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/arready">
+            <obj_property name="ElementShortName">arready</obj_property>
+            <obj_property name="ObjectShortName">arready</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/top/tb_i/dut/mig_port/addr">
+            <obj_property name="ElementShortName">addr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/arvalid">
+            <obj_property name="ElementShortName">arvalid</obj_property>
+            <obj_property name="ObjectShortName">arvalid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/awvalid">
+            <obj_property name="ElementShortName">awvalid</obj_property>
+            <obj_property name="ObjectShortName">awvalid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/top/tb_i/dut/mig_port/arwlen">
+            <obj_property name="ElementShortName">arwlen[7:0]</obj_property>
+            <obj_property name="ObjectShortName">arwlen[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/wvalid">
+            <obj_property name="ElementShortName">wvalid</obj_property>
+            <obj_property name="ObjectShortName">wvalid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/top/tb_i/dut/mig_port/wdata">
+            <obj_property name="ElementShortName">wdata[1023:0]</obj_property>
+            <obj_property name="ObjectShortName">wdata[1023:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/top/tb_i/dut/mig_port/wstrb">
+            <obj_property name="ElementShortName">wstrb[127:0]</obj_property>
+            <obj_property name="ObjectShortName">wstrb[127:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/wlast">
+            <obj_property name="ElementShortName">wlast</obj_property>
+            <obj_property name="ObjectShortName">wlast</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/wready">
+            <obj_property name="ElementShortName">wready</obj_property>
+            <obj_property name="ObjectShortName">wready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/bvalid">
+            <obj_property name="ElementShortName">bvalid</obj_property>
+            <obj_property name="ObjectShortName">bvalid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top/tb_i/dut/mig_port/bready">
+            <obj_property name="ElementShortName">bready</obj_property>
+            <obj_property name="ObjectShortName">bready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_axi_wstate">
+         <obj_property name="ElementShortName">_axi_wstate[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_axi_wstate[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_sys_compute_counter">
+         <obj_property name="ElementShortName">_sys_compute_counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_sys_compute_counter[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_mat_mul_m_counter">
+         <obj_property name="ElementShortName">_mat_mul_m_counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_mat_mul_m_counter[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_mat_mul_count">
+         <obj_property name="ElementShortName">_mat_mul_count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_mat_mul_count[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/accel_state_o">
+         <obj_property name="ElementShortName">accel_state_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">accel_state_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_sys_read_counter">
+         <obj_property name="ElementShortName">_sys_read_counter[4:0]</obj_property>
+         <obj_property name="ObjectShortName">_sys_read_counter[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/w_addr_i">
+         <obj_property name="ElementShortName">w_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/w_data_i">
+         <obj_property name="ElementShortName">w_data_i[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data_i[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/w_strb_i">
+         <obj_property name="ElementShortName">w_strb_i[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_strb_i[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/w_valid_i">
+         <obj_property name="ElementShortName">w_valid_i</obj_property>
+         <obj_property name="ObjectShortName">w_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/sys_output_i">
+         <obj_property name="ElementShortName">sys_output_i[16383:0]</obj_property>
+         <obj_property name="ObjectShortName">sys_output_i[16383:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/sys_output_valid_i">
+         <obj_property name="ElementShortName">sys_output_valid_i</obj_property>
+         <obj_property name="ObjectShortName">sys_output_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_mig_w_delay_counter">
+         <obj_property name="ElementShortName">_mig_w_delay_counter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">_mig_w_delay_counter[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/r_data_o">
+         <obj_property name="ElementShortName">r_data_o[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_o[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/sys_reset_o">
+         <obj_property name="ElementShortName">sys_reset_o</obj_property>
+         <obj_property name="ObjectShortName">sys_reset_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/sys_valid_o">
+         <obj_property name="ElementShortName">sys_valid_o</obj_property>
+         <obj_property name="ObjectShortName">sys_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/sys_data_sel_o">
+         <obj_property name="ElementShortName">sys_data_sel_o</obj_property>
+         <obj_property name="ObjectShortName">sys_data_sel_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_saved_instruction">
+         <obj_property name="ElementShortName">_saved_instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_saved_instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/mig_port/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/mig_port/arwlen">
+         <obj_property name="ElementShortName">arwlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">arwlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_sys_read_data">
+         <obj_property name="ElementShortName">_sys_read_data[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">_sys_read_data[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/_sys_read_data_rev">
+         <obj_property name="ElementShortName">_sys_read_data_rev[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">_sys_read_data_rev[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/spad_mat_ab_rd_done_i">
+         <obj_property name="ElementShortName">spad_mat_ab_rd_done_i</obj_property>
+         <obj_property name="ObjectShortName">spad_mat_ab_rd_done_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group380">
+      <obj_property name="label">arb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/rst_n">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/mat_a_addr_i">
+         <obj_property name="ElementShortName">mat_a_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mat_a_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/mat_b_addr_i">
+         <obj_property name="ElementShortName">mat_b_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mat_b_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/mat_a_len">
+         <obj_property name="ElementShortName">mat_a_len[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mat_a_len[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/mat_b_len">
+         <obj_property name="ElementShortName">mat_b_len[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mat_b_len[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/bram_rd_sel_i">
+         <obj_property name="ElementShortName">bram_rd_sel_i</obj_property>
+         <obj_property name="ObjectShortName">bram_rd_sel_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/accel_state">
+         <obj_property name="ElementShortName">accel_state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">accel_state[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_arbiter_state">
+         <obj_property name="ElementShortName">_arbiter_state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_arbiter_state[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_mig_port_addr">
+         <obj_property name="ElementShortName">_mig_port_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_arvalid">
+         <obj_property name="ElementShortName">_mig_port_arvalid</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_awvalid">
+         <obj_property name="ElementShortName">_mig_port_awvalid</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_mig_port_arwlen">
+         <obj_property name="ElementShortName">_mig_port_arwlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_arwlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_awready">
+         <obj_property name="ElementShortName">_mig_port_awready</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_awready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_arready">
+         <obj_property name="ElementShortName">_mig_port_arready</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_arready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_wvalid">
+         <obj_property name="ElementShortName">_mig_port_wvalid</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_mig_port_wdata">
+         <obj_property name="ElementShortName">_mig_port_wdata[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_wdata[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_mig_port_wstrb">
+         <obj_property name="ElementShortName">_mig_port_wstrb[127:0]</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_wstrb[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_wlast">
+         <obj_property name="ElementShortName">_mig_port_wlast</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_wready">
+         <obj_property name="ElementShortName">_mig_port_wready</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_wready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_bvalid">
+         <obj_property name="ElementShortName">_mig_port_bvalid</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_bready">
+         <obj_property name="ElementShortName">_mig_port_bready</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_mig_port_data">
+         <obj_property name="ElementShortName">_mig_port_data[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_data[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_data_valid">
+         <obj_property name="ElementShortName">_mig_port_data_valid</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_rw_last">
+         <obj_property name="ElementShortName">_mig_port_rw_last</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_rw_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_mig_port_arwready">
+         <obj_property name="ElementShortName">_mig_port_arwready</obj_property>
+         <obj_property name="ObjectShortName">_mig_port_arwready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_bram_addr">
+         <obj_property name="ElementShortName">_bram_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_bram_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/_bram_bram_din">
+         <obj_property name="ElementShortName">_bram_bram_din[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">_bram_bram_din[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_bram_we_a">
+         <obj_property name="ElementShortName">_bram_we_a</obj_property>
+         <obj_property name="ObjectShortName">_bram_we_a</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_bram_we_b">
+         <obj_property name="ElementShortName">_bram_we_b</obj_property>
+         <obj_property name="ObjectShortName">_bram_we_b</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_bram_a_done">
+         <obj_property name="ElementShortName">_bram_a_done</obj_property>
+         <obj_property name="ObjectShortName">_bram_a_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/_bram_b_done">
+         <obj_property name="ElementShortName">_bram_b_done</obj_property>
+         <obj_property name="ObjectShortName">_bram_b_done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group429">
+      <obj_property name="label">out_mig_port</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_mig_port/data">
+         <obj_property name="ElementShortName">data[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">data[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/data_valid">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/rw_last">
+         <obj_property name="ElementShortName">rw_last</obj_property>
+         <obj_property name="ObjectShortName">rw_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/awready">
+         <obj_property name="ElementShortName">awready</obj_property>
+         <obj_property name="ObjectShortName">awready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/arready">
+         <obj_property name="ElementShortName">arready</obj_property>
+         <obj_property name="ObjectShortName">arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_mig_port/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/arvalid">
+         <obj_property name="ElementShortName">arvalid</obj_property>
+         <obj_property name="ObjectShortName">arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/awvalid">
+         <obj_property name="ElementShortName">awvalid</obj_property>
+         <obj_property name="ObjectShortName">awvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_mig_port/arwlen">
+         <obj_property name="ElementShortName">arwlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">arwlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/wvalid">
+         <obj_property name="ElementShortName">wvalid</obj_property>
+         <obj_property name="ObjectShortName">wvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_mig_port/wdata">
+         <obj_property name="ElementShortName">wdata[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_mig_port/wstrb">
+         <obj_property name="ElementShortName">wstrb[127:0]</obj_property>
+         <obj_property name="ObjectShortName">wstrb[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/wlast">
+         <obj_property name="ElementShortName">wlast</obj_property>
+         <obj_property name="ObjectShortName">wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/wready">
+         <obj_property name="ElementShortName">wready</obj_property>
+         <obj_property name="ObjectShortName">wready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/bvalid">
+         <obj_property name="ElementShortName">bvalid</obj_property>
+         <obj_property name="ObjectShortName">bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_mig_port/bready">
+         <obj_property name="ElementShortName">bready</obj_property>
+         <obj_property name="ObjectShortName">bready</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group434">
+      <obj_property name="label">bram_a_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_a_port_0/bram_dout">
+         <obj_property name="ElementShortName">bram_dout[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_dout[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_a_port_0/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_a_port_0/bram_din">
+         <obj_property name="ElementShortName">bram_din[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_din[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_bram_a_port_0/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group439">
+      <obj_property name="label">bram_b_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_b_port_0/bram_dout">
+         <obj_property name="ElementShortName">bram_dout[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_dout[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_b_port_0/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_b_port_0/bram_din">
+         <obj_property name="ElementShortName">bram_din[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_din[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_bram_b_port_0/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group444">
+      <obj_property name="label">bram_a_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_a_port_1/bram_dout">
+         <obj_property name="ElementShortName">bram_dout[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_dout[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_a_port_1/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_a_port_1/bram_din">
+         <obj_property name="ElementShortName">bram_din[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_din[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_bram_a_port_1/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group449">
+      <obj_property name="label">bram_b_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_b_port_1/bram_dout">
+         <obj_property name="ElementShortName">bram_dout[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_dout[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_b_port_1/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/arb/out_bram_b_port_1/bram_din">
+         <obj_property name="ElementShortName">bram_din[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_din[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/arb/out_bram_b_port_1/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group455">
+      <obj_property name="label">bram_a_ctl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/top/tb_i/dut/bram_a_port/bram_dout">
+         <obj_property name="ElementShortName">bram_dout[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_dout[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/bram_a_port/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/bram_a_port/bram_din">
+         <obj_property name="ElementShortName">bram_din[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_din[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/bram_a_port/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group460">
+      <obj_property name="label">bram_b_ctl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/top/tb_i/dut/bram_b_port/bram_dout">
+         <obj_property name="ElementShortName">bram_dout[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_dout[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/bram_b_port/addr">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top/tb_i/dut/bram_b_port/bram_din">
+         <obj_property name="ElementShortName">bram_din[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_din[1023:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top/tb_i/dut/bram_b_port/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top/tb_i/dut/sys_reset_o">
+      <obj_property name="ElementShortName">sys_reset_o</obj_property>
+      <obj_property name="ObjectShortName">sys_reset_o</obj_property>
+   </wvobject>
+</wave_config>

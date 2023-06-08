@@ -1,0 +1,2197 @@
+Threads: 1, Iteration: 1, Output: 64
+64
+pytorch get num threads: 1
+Time difference (vit block) = 5113465[µs]
+Time difference (vit block) = 5000906[µs]
+Time difference (patchify) = 269617[µs]
+Time difference (linear embedding) = 57811[µs]
+Time difference (positional embedding) = 165461[µs]
+Time difference (vit block total) = 10114371[µs]
+Time difference (classification) = 536[µs]
+Total time difference = 10607796[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 1, Iteration: 2, Output: 64
+64
+pytorch get num threads: 1
+Time difference (vit block) = 5161601[µs]
+Time difference (vit block) = 5017882[µs]
+Time difference (patchify) = 263774[µs]
+Time difference (linear embedding) = 60167[µs]
+Time difference (positional embedding) = 168943[µs]
+Time difference (vit block total) = 10179483[µs]
+Time difference (classification) = 558[µs]
+Total time difference = 10672925[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 1, Iteration: 3, Output: 64
+64
+pytorch get num threads: 1
+Time difference (vit block) = 5223574[µs]
+Time difference (vit block) = 5106406[µs]
+Time difference (patchify) = 275955[µs]
+Time difference (linear embedding) = 60481[µs]
+Time difference (positional embedding) = 168008[µs]
+Time difference (vit block total) = 10329980[µs]
+Time difference (classification) = 542[µs]
+Total time difference = 10834966[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 1, Iteration: 4, Output: 64
+64
+pytorch get num threads: 1
+Time difference (vit block) = 5203512[µs]
+Time difference (vit block) = 5091079[µs]
+Time difference (patchify) = 266194[µs]
+Time difference (linear embedding) = 59997[µs]
+Time difference (positional embedding) = 169628[µs]
+Time difference (vit block total) = 10294591[µs]
+Time difference (classification) = 532[µs]
+Total time difference = 10790942[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 1, Iteration: 5, Output: 64
+64
+pytorch get num threads: 1
+Time difference (vit block) = 5252671[µs]
+Time difference (vit block) = 5089732[µs]
+Time difference (patchify) = 267873[µs]
+Time difference (linear embedding) = 59810[µs]
+Time difference (positional embedding) = 169698[µs]
+Time difference (vit block total) = 10342403[µs]
+Time difference (classification) = 550[µs]
+Total time difference = 10840334[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+============================
+Threads: 2, Iteration: 1, Output: 64
+64
+pytorch get num threads: 2
+Time difference (vit block) = 2932729[µs]
+Time difference (vit block) = 2831621[µs]
+Time difference (patchify) = 146289[µs]
+Time difference (linear embedding) = 33429[µs]
+Time difference (positional embedding) = 103110[µs]
+Time difference (vit block total) = 5764350[µs]
+Time difference (classification) = 355[µs]
+Total time difference = 6047533[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 2, Iteration: 2, Output: 64
+64
+pytorch get num threads: 2
+Time difference (vit block) = 2923626[µs]
+Time difference (vit block) = 2817051[µs]
+Time difference (patchify) = 144377[µs]
+Time difference (linear embedding) = 34277[µs]
+Time difference (positional embedding) = 105207[µs]
+Time difference (vit block total) = 5740677[µs]
+Time difference (classification) = 359[µs]
+Total time difference = 6024897[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 2, Iteration: 3, Output: 64
+64
+pytorch get num threads: 2
+Time difference (vit block) = 2927693[µs]
+Time difference (vit block) = 2819065[µs]
+Time difference (patchify) = 145260[µs]
+Time difference (linear embedding) = 34092[µs]
+Time difference (positional embedding) = 104052[µs]
+Time difference (vit block total) = 5746758[µs]
+Time difference (classification) = 365[µs]
+Total time difference = 6030527[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 2, Iteration: 4, Output: 64
+64
+pytorch get num threads: 2
+Time difference (vit block) = 2901689[µs]
+Time difference (vit block) = 2843110[µs]
+Time difference (patchify) = 144729[µs]
+Time difference (linear embedding) = 34038[µs]
+Time difference (positional embedding) = 104159[µs]
+Time difference (vit block total) = 5744799[µs]
+Time difference (classification) = 351[µs]
+Total time difference = 6028076[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 2, Iteration: 5, Output: 64
+64
+pytorch get num threads: 2
+Time difference (vit block) = 2900278[µs]
+Time difference (vit block) = 2810034[µs]
+Time difference (patchify) = 142694[µs]
+Time difference (linear embedding) = 35274[µs]
+Time difference (positional embedding) = 100714[µs]
+Time difference (vit block total) = 5710312[µs]
+Time difference (classification) = 361[µs]
+Total time difference = 5989355[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+============================
+Threads: 4, Iteration: 1, Output: 64
+64
+pytorch get num threads: 4
+Time difference (vit block) = 1566094[µs]
+Time difference (vit block) = 1506738[µs]
+Time difference (patchify) = 77825[µs]
+Time difference (linear embedding) = 20917[µs]
+Time difference (positional embedding) = 67422[µs]
+Time difference (vit block total) = 3072832[µs]
+Time difference (classification) = 287[µs]
+Total time difference = 3239283[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 4, Iteration: 2, Output: 64
+64
+pytorch get num threads: 4
+Time difference (vit block) = 1575276[µs]
+Time difference (vit block) = 1504774[µs]
+Time difference (patchify) = 78163[µs]
+Time difference (linear embedding) = 21318[µs]
+Time difference (positional embedding) = 68901[µs]
+Time difference (vit block total) = 3080050[µs]
+Time difference (classification) = 284[µs]
+Total time difference = 3248716[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 4, Iteration: 3, Output: 64
+64
+pytorch get num threads: 4
+Time difference (vit block) = 1570092[µs]
+Time difference (vit block) = 1496483[µs]
+Time difference (patchify) = 77231[µs]
+Time difference (linear embedding) = 21272[µs]
+Time difference (positional embedding) = 65899[µs]
+Time difference (vit block total) = 3066575[µs]
+Time difference (classification) = 285[µs]
+Total time difference = 3231262[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 4, Iteration: 4, Output: 64
+64
+pytorch get num threads: 4
+Time difference (vit block) = 1570814[µs]
+Time difference (vit block) = 1513138[µs]
+Time difference (patchify) = 78308[µs]
+Time difference (linear embedding) = 21306[µs]
+Time difference (positional embedding) = 68143[µs]
+Time difference (vit block total) = 3083952[µs]
+Time difference (classification) = 303[µs]
+Total time difference = 3252012[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 4, Iteration: 5, Output: 64
+64
+pytorch get num threads: 4
+Time difference (vit block) = 1572861[µs]
+Time difference (vit block) = 1503452[µs]
+Time difference (patchify) = 77231[µs]
+Time difference (linear embedding) = 21641[µs]
+Time difference (positional embedding) = 68055[µs]
+Time difference (vit block total) = 3076313[µs]
+Time difference (classification) = 295[µs]
+Total time difference = 3243535[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+============================
+Threads: 6, Iteration: 1, Output: 64
+64
+pytorch get num threads: 6
+Time difference (vit block) = 1138575[µs]
+Time difference (vit block) = 1063394[µs]
+Time difference (patchify) = 55376[µs]
+Time difference (linear embedding) = 17124[µs]
+Time difference (positional embedding) = 56200[µs]
+Time difference (vit block total) = 2201969[µs]
+Time difference (classification) = 257[µs]
+Total time difference = 2330926[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 6, Iteration: 2, Output: 64
+64
+pytorch get num threads: 6
+Time difference (vit block) = 1143437[µs]
+Time difference (vit block) = 1067262[µs]
+Time difference (patchify) = 54382[µs]
+Time difference (linear embedding) = 17674[µs]
+Time difference (positional embedding) = 56589[µs]
+Time difference (vit block total) = 2210699[µs]
+Time difference (classification) = 266[µs]
+Total time difference = 2339610[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 6, Iteration: 3, Output: 64
+64
+pytorch get num threads: 6
+Time difference (vit block) = 1136908[µs]
+Time difference (vit block) = 1065150[µs]
+Time difference (patchify) = 63187[µs]
+Time difference (linear embedding) = 17613[µs]
+Time difference (positional embedding) = 55979[µs]
+Time difference (vit block total) = 2202058[µs]
+Time difference (classification) = 277[µs]
+Total time difference = 2339114[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 6, Iteration: 4, Output: 64
+64
+pytorch get num threads: 6
+Time difference (vit block) = 1130208[µs]
+Time difference (vit block) = 1068164[µs]
+Time difference (patchify) = 61156[µs]
+Time difference (linear embedding) = 17561[µs]
+Time difference (positional embedding) = 55578[µs]
+Time difference (vit block total) = 2198372[µs]
+Time difference (classification) = 262[µs]
+Total time difference = 2332929[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 6, Iteration: 5, Output: 64
+64
+pytorch get num threads: 6
+Time difference (vit block) = 1139043[µs]
+Time difference (vit block) = 1078773[µs]
+Time difference (patchify) = 53681[µs]
+Time difference (linear embedding) = 17141[µs]
+Time difference (positional embedding) = 56488[µs]
+Time difference (vit block total) = 2217816[µs]
+Time difference (classification) = 259[µs]
+Total time difference = 2345385[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+============================
+Threads: 8, Iteration: 1, Output: 64
+64
+pytorch get num threads: 8
+Time difference (vit block) = 1102123[µs]
+Time difference (vit block) = 861967[µs]
+Time difference (patchify) = 54906[µs]
+Time difference (linear embedding) = 18712[µs]
+Time difference (positional embedding) = 53106[µs]
+Time difference (vit block total) = 1964090[µs]
+Time difference (classification) = 260[µs]
+Total time difference = 2091074[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 8, Iteration: 2, Output: 64
+64
+pytorch get num threads: 8
+Time difference (vit block) = 1084462[µs]
+Time difference (vit block) = 1009015[µs]
+Time difference (patchify) = 84138[µs]
+Time difference (linear embedding) = 28441[µs]
+Time difference (positional embedding) = 66873[µs]
+Time difference (vit block total) = 2093477[µs]
+Time difference (classification) = 295[µs]
+Total time difference = 2273224[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 8, Iteration: 3, Output: 64
+64
+pytorch get num threads: 8
+Time difference (vit block) = 993406[µs]
+Time difference (vit block) = 1225323[µs]
+Time difference (patchify) = 77692[µs]
+Time difference (linear embedding) = 20047[µs]
+Time difference (positional embedding) = 54767[µs]
+Time difference (vit block total) = 2218729[µs]
+Time difference (classification) = 263[µs]
+Total time difference = 2371498[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 8, Iteration: 4, Output: 64
+64
+pytorch get num threads: 8
+Time difference (vit block) = 1123512[µs]
+Time difference (vit block) = 1265717[µs]
+Time difference (patchify) = 75633[µs]
+Time difference (linear embedding) = 18697[µs]
+Time difference (positional embedding) = 52956[µs]
+Time difference (vit block total) = 2389229[µs]
+Time difference (classification) = 248[µs]
+Total time difference = 2536763[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 8, Iteration: 5, Output: 64
+64
+pytorch get num threads: 8
+Time difference (vit block) = 1166005[µs]
+Time difference (vit block) = 1084978[µs]
+Time difference (patchify) = 60842[µs]
+Time difference (linear embedding) = 19856[µs]
+Time difference (positional embedding) = 56704[µs]
+Time difference (vit block total) = 2250983[µs]
+Time difference (classification) = 250[µs]
+Total time difference = 2388635[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+============================
+Threads: 10, Iteration: 1, Output: 64
+64
+pytorch get num threads: 10
+Time difference (vit block) = 1273686[µs]
+Time difference (vit block) = 1214112[µs]
+Time difference (patchify) = 97599[µs]
+Time difference (linear embedding) = 22970[µs]
+Time difference (positional embedding) = 63317[µs]
+Time difference (vit block total) = 2487798[µs]
+Time difference (classification) = 306[µs]
+Total time difference = 2671990[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 10, Iteration: 2, Output: 64
+64
+pytorch get num threads: 10
+Time difference (vit block) = 1289582[µs]
+Time difference (vit block) = 1229784[µs]
+Time difference (patchify) = 64258[µs]
+Time difference (linear embedding) = 23989[µs]
+Time difference (positional embedding) = 64312[µs]
+Time difference (vit block total) = 2519366[µs]
+Time difference (classification) = 271[µs]
+Total time difference = 2672196[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 10, Iteration: 3, Output: 64
+64
+pytorch get num threads: 10
+Time difference (vit block) = 1311081[µs]
+Time difference (vit block) = 1229714[µs]
+Time difference (patchify) = 101935[µs]
+Time difference (linear embedding) = 34720[µs]
+Time difference (positional embedding) = 63040[µs]
+Time difference (vit block total) = 2540795[µs]
+Time difference (classification) = 274[µs]
+Total time difference = 2740764[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 10, Iteration: 4, Output: 64
+64
+pytorch get num threads: 10
+Time difference (vit block) = 1318771[µs]
+Time difference (vit block) = 1238325[µs]
+Time difference (patchify) = 112663[µs]
+Time difference (linear embedding) = 18726[µs]
+Time difference (positional embedding) = 63604[µs]
+Time difference (vit block total) = 2557096[µs]
+Time difference (classification) = 280[µs]
+Total time difference = 2752369[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 10, Iteration: 5, Output: 64
+64
+pytorch get num threads: 10
+Time difference (vit block) = 1274537[µs]
+Time difference (vit block) = 1252678[µs]
+Time difference (patchify) = 69777[µs]
+Time difference (linear embedding) = 20306[µs]
+Time difference (positional embedding) = 66161[µs]
+Time difference (vit block total) = 2527215[µs]
+Time difference (classification) = 291[µs]
+Total time difference = 2683750[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+============================
+Threads: 12, Iteration: 1, Output: 64
+64
+pytorch get num threads: 12
+Time difference (vit block) = 1225557[µs]
+Time difference (vit block) = 1138513[µs]
+Time difference (patchify) = 97257[µs]
+Time difference (linear embedding) = 26636[µs]
+Time difference (positional embedding) = 73004[µs]
+Time difference (vit block total) = 2364070[µs]
+Time difference (classification) = 345[µs]
+Total time difference = 2561312[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 12, Iteration: 2, Output: 64
+64
+pytorch get num threads: 12
+Time difference (vit block) = 1270033[µs]
+Time difference (vit block) = 1095766[µs]
+Time difference (patchify) = 94434[µs]
+Time difference (linear embedding) = 26052[µs]
+Time difference (positional embedding) = 62178[µs]
+Time difference (vit block total) = 2365799[µs]
+Time difference (classification) = 269[µs]
+Total time difference = 2548732[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 12, Iteration: 3, Output: 64
+64
+pytorch get num threads: 12
+Time difference (vit block) = 1230623[µs]
+Time difference (vit block) = 1104413[µs]
+Time difference (patchify) = 89033[µs]
+Time difference (linear embedding) = 24794[µs]
+Time difference (positional embedding) = 64007[µs]
+Time difference (vit block total) = 2335036[µs]
+Time difference (classification) = 260[µs]
+Total time difference = 2513130[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 12, Iteration: 4, Output: 64
+64
+pytorch get num threads: 12
+Time difference (vit block) = 1190482[µs]
+Time difference (vit block) = 1231603[µs]
+Time difference (patchify) = 96855[µs]
+Time difference (linear embedding) = 26310[µs]
+Time difference (positional embedding) = 62505[µs]
+Time difference (vit block total) = 2422085[µs]
+Time difference (classification) = 378[µs]
+Total time difference = 2608133[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 12, Iteration: 5, Output: 64
+64
+pytorch get num threads: 12
+Time difference (vit block) = 1235974[µs]
+Time difference (vit block) = 1163442[µs]
+Time difference (patchify) = 82293[µs]
+Time difference (linear embedding) = 26524[µs]
+Time difference (positional embedding) = 62749[µs]
+Time difference (vit block total) = 2399416[µs]
+Time difference (classification) = 354[µs]
+Total time difference = 2571336[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+Threads: 12, Average time difference (patchify): 91974.40[µs]
+Threads: 12, Average time difference (linear embedding): 26063.20[µs]
+Threads: 12, Average time difference (positional embedding): 64888.60[µs]
+Threads: 12, Average time difference (vit block total): 2377281.20[µs]
+Threads: 12, Average time difference (classification): 321.20[µs]
+Threads: 12, Average total time difference: 2560528.60[µs]
+============================
+Threads: 14, Iteration: 1, Output: 64
+64
+pytorch get num threads: 14
+Time difference (vit block) = 1150113[µs]
+Time difference (vit block) = 1025222[µs]
+Time difference (patchify) = 86935[µs]
+Time difference (linear embedding) = 19692[µs]
+Time difference (positional embedding) = 60946[µs]
+Time difference (vit block total) = 2175335[µs]
+Time difference (classification) = 270[µs]
+Total time difference = 2343178[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 14, Iteration: 2, Output: 64
+64
+pytorch get num threads: 14
+Time difference (vit block) = 1163015[µs]
+Time difference (vit block) = 1048269[µs]
+Time difference (patchify) = 87368[µs]
+Time difference (linear embedding) = 19018[µs]
+Time difference (positional embedding) = 60811[µs]
+Time difference (vit block total) = 2211284[µs]
+Time difference (classification) = 344[µs]
+Total time difference = 2378825[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 14, Iteration: 3, Output: 64
+64
+pytorch get num threads: 14
+Time difference (vit block) = 1170200[µs]
+Time difference (vit block) = 1088187[µs]
+Time difference (patchify) = 85593[µs]
+Time difference (linear embedding) = 21041[µs]
+Time difference (positional embedding) = 69802[µs]
+Time difference (vit block total) = 2258387[µs]
+Time difference (classification) = 264[µs]
+Total time difference = 2435087[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 14, Iteration: 4, Output: 64
+64
+pytorch get num threads: 14
+Time difference (vit block) = 1167162[µs]
+Time difference (vit block) = 1053623[µs]
+Time difference (patchify) = 83556[µs]
+Time difference (linear embedding) = 21787[µs]
+Time difference (positional embedding) = 65394[µs]
+Time difference (vit block total) = 2220785[µs]
+Time difference (classification) = 322[µs]
+Total time difference = 2391844[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 14, Iteration: 5, Output: 64
+64
+pytorch get num threads: 14
+Time difference (vit block) = 1129549[µs]
+Time difference (vit block) = 1047798[µs]
+Time difference (patchify) = 88324[µs]
+Time difference (linear embedding) = 20058[µs]
+Time difference (positional embedding) = 70512[µs]
+Time difference (vit block total) = 2177347[µs]
+Time difference (classification) = 351[µs]
+Total time difference = 2356592[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+Threads: 12, Average time difference (patchify): 91974.40[µs]
+Threads: 12, Average time difference (linear embedding): 26063.20[µs]
+Threads: 12, Average time difference (positional embedding): 64888.60[µs]
+Threads: 12, Average time difference (vit block total): 2377281.20[µs]
+Threads: 12, Average time difference (classification): 321.20[µs]
+Threads: 12, Average total time difference: 2560528.60[µs]
+Threads: 14, Average time difference (patchify): 86355.20[µs]
+Threads: 14, Average time difference (linear embedding): 20319.20[µs]
+Threads: 14, Average time difference (positional embedding): 65493.00[µs]
+Threads: 14, Average time difference (vit block total): 2208627.60[µs]
+Threads: 14, Average time difference (classification): 310.20[µs]
+Threads: 14, Average total time difference: 2381105.20[µs]
+============================
+Threads: 16, Iteration: 1, Output: 64
+64
+pytorch get num threads: 16
+Time difference (vit block) = 1150371[µs]
+Time difference (vit block) = 995803[µs]
+Time difference (patchify) = 76297[µs]
+Time difference (linear embedding) = 25309[µs]
+Time difference (positional embedding) = 61414[µs]
+Time difference (vit block total) = 2146174[µs]
+Time difference (classification) = 374[µs]
+Total time difference = 2309568[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 16, Iteration: 2, Output: 64
+64
+pytorch get num threads: 16
+Time difference (vit block) = 1116948[µs]
+Time difference (vit block) = 1017380[µs]
+Time difference (patchify) = 70032[µs]
+Time difference (linear embedding) = 25078[µs]
+Time difference (positional embedding) = 61209[µs]
+Time difference (vit block total) = 2134328[µs]
+Time difference (classification) = 240[µs]
+Total time difference = 2290887[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 16, Iteration: 3, Output: 64
+64
+pytorch get num threads: 16
+Time difference (vit block) = 1135354[µs]
+Time difference (vit block) = 1011216[µs]
+Time difference (patchify) = 78041[µs]
+Time difference (linear embedding) = 24537[µs]
+Time difference (positional embedding) = 59191[µs]
+Time difference (vit block total) = 2146570[µs]
+Time difference (classification) = 328[µs]
+Total time difference = 2308667[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 16, Iteration: 4, Output: 64
+64
+pytorch get num threads: 16
+Time difference (vit block) = 1090342[µs]
+Time difference (vit block) = 1121960[µs]
+Time difference (patchify) = 76974[µs]
+Time difference (linear embedding) = 30273[µs]
+Time difference (positional embedding) = 66433[µs]
+Time difference (vit block total) = 2212302[µs]
+Time difference (classification) = 243[µs]
+Total time difference = 2386225[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 16, Iteration: 5, Output: 64
+64
+pytorch get num threads: 16
+Time difference (vit block) = 1146847[µs]
+Time difference (vit block) = 1011162[µs]
+Time difference (patchify) = 76771[µs]
+Time difference (linear embedding) = 24475[µs]
+Time difference (positional embedding) = 69248[µs]
+Time difference (vit block total) = 2158009[µs]
+Time difference (classification) = 252[µs]
+Total time difference = 2328755[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+Threads: 12, Average time difference (patchify): 91974.40[µs]
+Threads: 12, Average time difference (linear embedding): 26063.20[µs]
+Threads: 12, Average time difference (positional embedding): 64888.60[µs]
+Threads: 12, Average time difference (vit block total): 2377281.20[µs]
+Threads: 12, Average time difference (classification): 321.20[µs]
+Threads: 12, Average total time difference: 2560528.60[µs]
+Threads: 14, Average time difference (patchify): 86355.20[µs]
+Threads: 14, Average time difference (linear embedding): 20319.20[µs]
+Threads: 14, Average time difference (positional embedding): 65493.00[µs]
+Threads: 14, Average time difference (vit block total): 2208627.60[µs]
+Threads: 14, Average time difference (classification): 310.20[µs]
+Threads: 14, Average total time difference: 2381105.20[µs]
+Threads: 16, Average time difference (patchify): 75623.00[µs]
+Threads: 16, Average time difference (linear embedding): 25934.40[µs]
+Threads: 16, Average time difference (positional embedding): 63499.00[µs]
+Threads: 16, Average time difference (vit block total): 2159476.60[µs]
+Threads: 16, Average time difference (classification): 287.40[µs]
+Threads: 16, Average total time difference: 2324820.40[µs]
+============================
+Threads: 18, Iteration: 1, Output: 64
+64
+pytorch get num threads: 18
+Time difference (vit block) = 1136839[µs]
+Time difference (vit block) = 951151[µs]
+Time difference (patchify) = 71439[µs]
+Time difference (linear embedding) = 22847[µs]
+Time difference (positional embedding) = 60551[µs]
+Time difference (vit block total) = 2087990[µs]
+Time difference (classification) = 323[µs]
+Total time difference = 2243150[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 18, Iteration: 2, Output: 64
+64
+pytorch get num threads: 18
+Time difference (vit block) = 1098723[µs]
+Time difference (vit block) = 969865[µs]
+Time difference (patchify) = 69697[µs]
+Time difference (linear embedding) = 22540[µs]
+Time difference (positional embedding) = 64243[µs]
+Time difference (vit block total) = 2068588[µs]
+Time difference (classification) = 909[µs]
+Total time difference = 2225977[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 18, Iteration: 3, Output: 64
+64
+pytorch get num threads: 18
+Time difference (vit block) = 1112400[µs]
+Time difference (vit block) = 975218[µs]
+Time difference (patchify) = 70684[µs]
+Time difference (linear embedding) = 23513[µs]
+Time difference (positional embedding) = 69130[µs]
+Time difference (vit block total) = 2087618[µs]
+Time difference (classification) = 317[µs]
+Total time difference = 2251262[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 18, Iteration: 4, Output: 64
+64
+pytorch get num threads: 18
+Time difference (vit block) = 1133359[µs]
+Time difference (vit block) = 953369[µs]
+Time difference (patchify) = 68644[µs]
+Time difference (linear embedding) = 24298[µs]
+Time difference (positional embedding) = 61750[µs]
+Time difference (vit block total) = 2086728[µs]
+Time difference (classification) = 324[µs]
+Total time difference = 2241744[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 18, Iteration: 5, Output: 64
+64
+pytorch get num threads: 18
+Time difference (vit block) = 1108494[µs]
+Time difference (vit block) = 966354[µs]
+Time difference (patchify) = 67966[µs]
+Time difference (linear embedding) = 22321[µs]
+Time difference (positional embedding) = 69923[µs]
+Time difference (vit block total) = 2074848[µs]
+Time difference (classification) = 339[µs]
+Total time difference = 2235397[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+Threads: 12, Average time difference (patchify): 91974.40[µs]
+Threads: 12, Average time difference (linear embedding): 26063.20[µs]
+Threads: 12, Average time difference (positional embedding): 64888.60[µs]
+Threads: 12, Average time difference (vit block total): 2377281.20[µs]
+Threads: 12, Average time difference (classification): 321.20[µs]
+Threads: 12, Average total time difference: 2560528.60[µs]
+Threads: 14, Average time difference (patchify): 86355.20[µs]
+Threads: 14, Average time difference (linear embedding): 20319.20[µs]
+Threads: 14, Average time difference (positional embedding): 65493.00[µs]
+Threads: 14, Average time difference (vit block total): 2208627.60[µs]
+Threads: 14, Average time difference (classification): 310.20[µs]
+Threads: 14, Average total time difference: 2381105.20[µs]
+Threads: 16, Average time difference (patchify): 75623.00[µs]
+Threads: 16, Average time difference (linear embedding): 25934.40[µs]
+Threads: 16, Average time difference (positional embedding): 63499.00[µs]
+Threads: 16, Average time difference (vit block total): 2159476.60[µs]
+Threads: 16, Average time difference (classification): 287.40[µs]
+Threads: 16, Average total time difference: 2324820.40[µs]
+Threads: 18, Average time difference (patchify): 69686.00[µs]
+Threads: 18, Average time difference (linear embedding): 23103.80[µs]
+Threads: 18, Average time difference (positional embedding): 65119.40[µs]
+Threads: 18, Average time difference (vit block total): 2081154.40[µs]
+Threads: 18, Average time difference (classification): 442.40[µs]
+Threads: 18, Average total time difference: 2239506.00[µs]
+============================
+Threads: 20, Iteration: 1, Output: 64
+64
+pytorch get num threads: 20
+Time difference (vit block) = 1131219[µs]
+Time difference (vit block) = 1033251[µs]
+Time difference (patchify) = 65256[µs]
+Time difference (linear embedding) = 30167[µs]
+Time difference (positional embedding) = 58802[µs]
+Time difference (vit block total) = 2164470[µs]
+Time difference (classification) = 240[µs]
+Total time difference = 2318935[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 20, Iteration: 2, Output: 64
+64
+pytorch get num threads: 20
+Time difference (vit block) = 1098000[µs]
+Time difference (vit block) = 885384[µs]
+Time difference (patchify) = 63939[µs]
+Time difference (linear embedding) = 30910[µs]
+Time difference (positional embedding) = 59623[µs]
+Time difference (vit block total) = 1983384[µs]
+Time difference (classification) = 329[µs]
+Total time difference = 2138185[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 20, Iteration: 3, Output: 64
+64
+pytorch get num threads: 20
+Time difference (vit block) = 1110119[µs]
+Time difference (vit block) = 922607[µs]
+Time difference (patchify) = 63804[µs]
+Time difference (linear embedding) = 27070[µs]
+Time difference (positional embedding) = 63636[µs]
+Time difference (vit block total) = 2032726[µs]
+Time difference (classification) = 337[µs]
+Total time difference = 2187573[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 20, Iteration: 4, Output: 64
+64
+pytorch get num threads: 20
+Time difference (vit block) = 1091898[µs]
+Time difference (vit block) = 914832[µs]
+Time difference (patchify) = 64183[µs]
+Time difference (linear embedding) = 30497[µs]
+Time difference (positional embedding) = 59785[µs]
+Time difference (vit block total) = 2006730[µs]
+Time difference (classification) = 318[µs]
+Total time difference = 2161513[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 20, Iteration: 5, Output: 64
+64
+pytorch get num threads: 20
+Time difference (vit block) = 1095290[µs]
+Time difference (vit block) = 928321[µs]
+Time difference (patchify) = 66522[µs]
+Time difference (linear embedding) = 30618[µs]
+Time difference (positional embedding) = 59980[µs]
+Time difference (vit block total) = 2023611[µs]
+Time difference (classification) = 462[µs]
+Total time difference = 2181193[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+Threads: 12, Average time difference (patchify): 91974.40[µs]
+Threads: 12, Average time difference (linear embedding): 26063.20[µs]
+Threads: 12, Average time difference (positional embedding): 64888.60[µs]
+Threads: 12, Average time difference (vit block total): 2377281.20[µs]
+Threads: 12, Average time difference (classification): 321.20[µs]
+Threads: 12, Average total time difference: 2560528.60[µs]
+Threads: 14, Average time difference (patchify): 86355.20[µs]
+Threads: 14, Average time difference (linear embedding): 20319.20[µs]
+Threads: 14, Average time difference (positional embedding): 65493.00[µs]
+Threads: 14, Average time difference (vit block total): 2208627.60[µs]
+Threads: 14, Average time difference (classification): 310.20[µs]
+Threads: 14, Average total time difference: 2381105.20[µs]
+Threads: 16, Average time difference (patchify): 75623.00[µs]
+Threads: 16, Average time difference (linear embedding): 25934.40[µs]
+Threads: 16, Average time difference (positional embedding): 63499.00[µs]
+Threads: 16, Average time difference (vit block total): 2159476.60[µs]
+Threads: 16, Average time difference (classification): 287.40[µs]
+Threads: 16, Average total time difference: 2324820.40[µs]
+Threads: 18, Average time difference (patchify): 69686.00[µs]
+Threads: 18, Average time difference (linear embedding): 23103.80[µs]
+Threads: 18, Average time difference (positional embedding): 65119.40[µs]
+Threads: 18, Average time difference (vit block total): 2081154.40[µs]
+Threads: 18, Average time difference (classification): 442.40[µs]
+Threads: 18, Average total time difference: 2239506.00[µs]
+Threads: 20, Average time difference (patchify): 64740.80[µs]
+Threads: 20, Average time difference (linear embedding): 29852.40[µs]
+Threads: 20, Average time difference (positional embedding): 60365.20[µs]
+Threads: 20, Average time difference (vit block total): 2042184.20[µs]
+Threads: 20, Average time difference (classification): 337.20[µs]
+Threads: 20, Average total time difference: 2197479.80[µs]
+============================
+Threads: 22, Iteration: 1, Output: 64
+64
+pytorch get num threads: 22
+Time difference (vit block) = 1099050[µs]
+Time difference (vit block) = 914225[µs]
+Time difference (patchify) = 61187[µs]
+Time difference (linear embedding) = 18044[µs]
+Time difference (positional embedding) = 60294[µs]
+Time difference (vit block total) = 2013275[µs]
+Time difference (classification) = 344[µs]
+Total time difference = 2153144[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 22, Iteration: 2, Output: 64
+64
+pytorch get num threads: 22
+Time difference (vit block) = 1079743[µs]
+Time difference (vit block) = 911431[µs]
+Time difference (patchify) = 59010[µs]
+Time difference (linear embedding) = 18746[µs]
+Time difference (positional embedding) = 67316[µs]
+Time difference (vit block total) = 1991174[µs]
+Time difference (classification) = 367[µs]
+Total time difference = 2136613[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 22, Iteration: 3, Output: 64
+64
+pytorch get num threads: 22
+Time difference (vit block) = 1081457[µs]
+Time difference (vit block) = 924459[µs]
+Time difference (patchify) = 58054[µs]
+Time difference (linear embedding) = 20833[µs]
+Time difference (positional embedding) = 61042[µs]
+Time difference (vit block total) = 2005916[µs]
+Time difference (classification) = 323[µs]
+Total time difference = 2146168[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 22, Iteration: 4, Output: 64
+64
+pytorch get num threads: 22
+Time difference (vit block) = 1074693[µs]
+Time difference (vit block) = 891946[µs]
+Time difference (patchify) = 60711[µs]
+Time difference (linear embedding) = 17975[µs]
+Time difference (positional embedding) = 69807[µs]
+Time difference (vit block total) = 1966639[µs]
+Time difference (classification) = 258[µs]
+Total time difference = 2115390[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 22, Iteration: 5, Output: 64
+64
+pytorch get num threads: 22
+Time difference (vit block) = 1089629[µs]
+Time difference (vit block) = 1067121[µs]
+Time difference (patchify) = 58465[µs]
+Time difference (linear embedding) = 18137[µs]
+Time difference (positional embedding) = 70645[µs]
+Time difference (vit block total) = 2156750[µs]
+Time difference (classification) = 326[µs]
+Total time difference = 2304323[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+Threads: 12, Average time difference (patchify): 91974.40[µs]
+Threads: 12, Average time difference (linear embedding): 26063.20[µs]
+Threads: 12, Average time difference (positional embedding): 64888.60[µs]
+Threads: 12, Average time difference (vit block total): 2377281.20[µs]
+Threads: 12, Average time difference (classification): 321.20[µs]
+Threads: 12, Average total time difference: 2560528.60[µs]
+Threads: 14, Average time difference (patchify): 86355.20[µs]
+Threads: 14, Average time difference (linear embedding): 20319.20[µs]
+Threads: 14, Average time difference (positional embedding): 65493.00[µs]
+Threads: 14, Average time difference (vit block total): 2208627.60[µs]
+Threads: 14, Average time difference (classification): 310.20[µs]
+Threads: 14, Average total time difference: 2381105.20[µs]
+Threads: 16, Average time difference (patchify): 75623.00[µs]
+Threads: 16, Average time difference (linear embedding): 25934.40[µs]
+Threads: 16, Average time difference (positional embedding): 63499.00[µs]
+Threads: 16, Average time difference (vit block total): 2159476.60[µs]
+Threads: 16, Average time difference (classification): 287.40[µs]
+Threads: 16, Average total time difference: 2324820.40[µs]
+Threads: 18, Average time difference (patchify): 69686.00[µs]
+Threads: 18, Average time difference (linear embedding): 23103.80[µs]
+Threads: 18, Average time difference (positional embedding): 65119.40[µs]
+Threads: 18, Average time difference (vit block total): 2081154.40[µs]
+Threads: 18, Average time difference (classification): 442.40[µs]
+Threads: 18, Average total time difference: 2239506.00[µs]
+Threads: 20, Average time difference (patchify): 64740.80[µs]
+Threads: 20, Average time difference (linear embedding): 29852.40[µs]
+Threads: 20, Average time difference (positional embedding): 60365.20[µs]
+Threads: 20, Average time difference (vit block total): 2042184.20[µs]
+Threads: 20, Average time difference (classification): 337.20[µs]
+Threads: 20, Average total time difference: 2197479.80[µs]
+Threads: 22, Average time difference (patchify): 59485.40[µs]
+Threads: 22, Average time difference (linear embedding): 18747.00[µs]
+Threads: 22, Average time difference (positional embedding): 65820.80[µs]
+Threads: 22, Average time difference (vit block total): 2026750.80[µs]
+Threads: 22, Average time difference (classification): 323.60[µs]
+Threads: 22, Average total time difference: 2171127.60[µs]
+============================
+Threads: 24, Iteration: 1, Output: 64
+64
+pytorch get num threads: 24
+Time difference (vit block) = 1088630[µs]
+Time difference (vit block) = 861045[µs]
+Time difference (patchify) = 54910[µs]
+Time difference (linear embedding) = 27944[µs]
+Time difference (positional embedding) = 60442[µs]
+Time difference (vit block total) = 1949675[µs]
+Time difference (classification) = 329[µs]
+Total time difference = 2093300[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 24, Iteration: 2, Output: 64
+64
+pytorch get num threads: 24
+Time difference (vit block) = 1085205[µs]
+Time difference (vit block) = 910623[µs]
+Time difference (patchify) = 57146[µs]
+Time difference (linear embedding) = 25703[µs]
+Time difference (positional embedding) = 60178[µs]
+Time difference (vit block total) = 1995828[µs]
+Time difference (classification) = 376[µs]
+Total time difference = 2139231[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 24, Iteration: 3, Output: 64
+64
+pytorch get num threads: 24
+Time difference (vit block) = 1053737[µs]
+Time difference (vit block) = 1019458[µs]
+Time difference (patchify) = 55369[µs]
+Time difference (linear embedding) = 25498[µs]
+Time difference (positional embedding) = 65602[µs]
+Time difference (vit block total) = 2073195[µs]
+Time difference (classification) = 229[µs]
+Total time difference = 2219893[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 24, Iteration: 4, Output: 64
+64
+pytorch get num threads: 24
+Time difference (vit block) = 1074584[µs]
+Time difference (vit block) = 877862[µs]
+Time difference (patchify) = 54465[µs]
+Time difference (linear embedding) = 23797[µs]
+Time difference (positional embedding) = 64710[µs]
+Time difference (vit block total) = 1952446[µs]
+Time difference (classification) = 318[µs]
+Total time difference = 2095736[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Threads: 24, Iteration: 5, Output: 64
+64
+pytorch get num threads: 24
+Time difference (vit block) = 1073613[µs]
+Time difference (vit block) = 862238[µs]
+Time difference (patchify) = 57482[µs]
+Time difference (linear embedding) = 25251[µs]
+Time difference (positional embedding) = 59534[µs]
+Time difference (vit block total) = 1935851[µs]
+Time difference (classification) = 271[µs]
+Total time difference = 2078389[µs]
+Tensor dimension: 2
+Tensor shape: 2048 10 0.0001 *
+ 5.4469
+ 4.4905
+ 5.1573
+ 4.7660
+ 4.2925
+ 5.2133
+ 4.7111
+ 5.0111
+ 4.3173
+ 5.5977
+[ CPUFloatType{10} ]
+--------------------------
+Average Time Differences:
+Threads: 1, Average time difference (patchify): 268682.60[µs]
+Threads: 1, Average time difference (linear embedding): 59653.20[µs]
+Threads: 1, Average time difference (positional embedding): 168347.60[µs]
+Threads: 1, Average time difference (vit block total): 10252165.60[µs]
+Threads: 1, Average time difference (classification): 543.60[µs]
+Threads: 1, Average total time difference: 10749392.60[µs]
+Threads: 2, Average time difference (patchify): 144669.80[µs]
+Threads: 2, Average time difference (linear embedding): 34222.00[µs]
+Threads: 2, Average time difference (positional embedding): 103448.40[µs]
+Threads: 2, Average time difference (vit block total): 5741379.20[µs]
+Threads: 2, Average time difference (classification): 358.20[µs]
+Threads: 2, Average total time difference: 6024077.60[µs]
+Threads: 4, Average time difference (patchify): 77751.60[µs]
+Threads: 4, Average time difference (linear embedding): 21290.80[µs]
+Threads: 4, Average time difference (positional embedding): 67684.00[µs]
+Threads: 4, Average time difference (vit block total): 3075944.40[µs]
+Threads: 4, Average time difference (classification): 290.80[µs]
+Threads: 4, Average total time difference: 3242961.60[µs]
+Threads: 6, Average time difference (patchify): 57556.40[µs]
+Threads: 6, Average time difference (linear embedding): 17422.60[µs]
+Threads: 6, Average time difference (positional embedding): 56166.80[µs]
+Threads: 6, Average time difference (vit block total): 2206182.80[µs]
+Threads: 6, Average time difference (classification): 264.20[µs]
+Threads: 6, Average total time difference: 2337592.80[µs]
+Threads: 8, Average time difference (patchify): 70642.20[µs]
+Threads: 8, Average time difference (linear embedding): 21150.60[µs]
+Threads: 8, Average time difference (positional embedding): 56881.20[µs]
+Threads: 8, Average time difference (vit block total): 2183301.60[µs]
+Threads: 8, Average time difference (classification): 263.20[µs]
+Threads: 8, Average total time difference: 2332238.80[µs]
+Threads: 10, Average time difference (patchify): 89246.40[µs]
+Threads: 10, Average time difference (linear embedding): 24142.20[µs]
+Threads: 10, Average time difference (positional embedding): 64086.80[µs]
+Threads: 10, Average time difference (vit block total): 2526454.00[µs]
+Threads: 10, Average time difference (classification): 284.40[µs]
+Threads: 10, Average total time difference: 2704213.80[µs]
+Threads: 12, Average time difference (patchify): 91974.40[µs]
+Threads: 12, Average time difference (linear embedding): 26063.20[µs]
+Threads: 12, Average time difference (positional embedding): 64888.60[µs]
+Threads: 12, Average time difference (vit block total): 2377281.20[µs]
+Threads: 12, Average time difference (classification): 321.20[µs]
+Threads: 12, Average total time difference: 2560528.60[µs]
+Threads: 14, Average time difference (patchify): 86355.20[µs]
+Threads: 14, Average time difference (linear embedding): 20319.20[µs]
+Threads: 14, Average time difference (positional embedding): 65493.00[µs]
+Threads: 14, Average time difference (vit block total): 2208627.60[µs]
+Threads: 14, Average time difference (classification): 310.20[µs]
+Threads: 14, Average total time difference: 2381105.20[µs]
+Threads: 16, Average time difference (patchify): 75623.00[µs]
+Threads: 16, Average time difference (linear embedding): 25934.40[µs]
+Threads: 16, Average time difference (positional embedding): 63499.00[µs]
+Threads: 16, Average time difference (vit block total): 2159476.60[µs]
+Threads: 16, Average time difference (classification): 287.40[µs]
+Threads: 16, Average total time difference: 2324820.40[µs]
+Threads: 18, Average time difference (patchify): 69686.00[µs]
+Threads: 18, Average time difference (linear embedding): 23103.80[µs]
+Threads: 18, Average time difference (positional embedding): 65119.40[µs]
+Threads: 18, Average time difference (vit block total): 2081154.40[µs]
+Threads: 18, Average time difference (classification): 442.40[µs]
+Threads: 18, Average total time difference: 2239506.00[µs]
+Threads: 20, Average time difference (patchify): 64740.80[µs]
+Threads: 20, Average time difference (linear embedding): 29852.40[µs]
+Threads: 20, Average time difference (positional embedding): 60365.20[µs]
+Threads: 20, Average time difference (vit block total): 2042184.20[µs]
+Threads: 20, Average time difference (classification): 337.20[µs]
+Threads: 20, Average total time difference: 2197479.80[µs]
+Threads: 22, Average time difference (patchify): 59485.40[µs]
+Threads: 22, Average time difference (linear embedding): 18747.00[µs]
+Threads: 22, Average time difference (positional embedding): 65820.80[µs]
+Threads: 22, Average time difference (vit block total): 2026750.80[µs]
+Threads: 22, Average time difference (classification): 323.60[µs]
+Threads: 22, Average total time difference: 2171127.60[µs]
+Threads: 24, Average time difference (patchify): 55874.40[µs]
+Threads: 24, Average time difference (linear embedding): 25638.60[µs]
+Threads: 24, Average time difference (positional embedding): 62093.20[µs]
+Threads: 24, Average time difference (vit block total): 1981399.00[µs]
+Threads: 24, Average time difference (classification): 304.60[µs]
+Threads: 24, Average total time difference: 2125309.80[µs]
+============================

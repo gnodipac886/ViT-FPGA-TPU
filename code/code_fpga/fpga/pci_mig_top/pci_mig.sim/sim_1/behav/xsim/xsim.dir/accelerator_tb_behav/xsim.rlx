@@ -1,0 +1,12 @@
+
+{ 
+    crc :  9616030139162000138  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 8aa83cdba8c542939b5e79fb125414f2 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot accelerator_tb_behav xil_defaultlib.accelerator_tb xil_defaultlib.glbl" , 
+    buildDate : "Jun 10 2021" , 
+    buildTime : "19:45:28" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/accelerator_tb_behav/xsimk\"   \"xsim.dir/accelerator_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/accelerator_tb_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx/Vivado/2021.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

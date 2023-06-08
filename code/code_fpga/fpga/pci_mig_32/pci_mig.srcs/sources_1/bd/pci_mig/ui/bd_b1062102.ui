@@ -1,0 +1,43 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.666294",
+   "Default View_TopLeft":"-147,-17",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port sys_diff_clock -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port pcie_ref -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port pcie_7x_mgt_rtl -pg 1 -lvl 5 -x 1480 -y 530 -defaultsOSRD
+preplace port ddr3_sdram -pg 1 -lvl 5 -x 1480 -y 280 -defaultsOSRD
+preplace port port-id_sys_rst -pg 1 -lvl 0 -x 0 -y 650 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 4 -x 1300 -y 320 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 2 -x 520 -y 580 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 1 -x 170 -y 580 -defaultsOSRD
+preplace inst rst_mig_7series_0_100M -pg 1 -lvl 3 -x 950 -y 110 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 950 -y 430 -defaultsOSRD
+preplace inst pci_mig_accelerator_0 -pg 1 -lvl 2 -x 520 -y 170 -defaultsOSRD
+preplace netloc mig_7series_0_mmcm_locked 1 2 3 770 210 1130J 200 1460
+preplace netloc mig_7series_0_ui_clk 1 2 3 750 230 1160J 220 1440
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 2 3 760 220 1140J 210 1450
+preplace netloc reset_rtl_1 1 0 4 NJ 650 320 330 NJ 330 NJ
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 3 1 1150 150n
+preplace netloc util_ds_buf_0_IBUF_OUT 1 1 1 NJ 570
+preplace netloc xdma_0_axi_aclk 1 1 2 340 270 710
+preplace netloc xdma_0_axi_aresetn 1 1 2 350 280 700
+preplace netloc CLK_IN_D_0_1 1 0 1 NJ 580
+preplace netloc mig_7series_0_DDR3 1 4 1 NJ 280
+preplace netloc pci_mig_accelerator_0_M00_AXI 1 2 1 740 160n
+preplace netloc smartconnect_0_M00_AXI 1 3 1 1160 290n
+preplace netloc smartconnect_0_M01_AXI 1 1 3 330 450 720J 530 1140
+preplace netloc sys_diff_clock_1 1 0 4 NJ 310 NJ 310 NJ 310 NJ
+preplace netloc xdma_0_M_AXI 1 2 1 730 390n
+preplace netloc xdma_0_pcie_mgt 1 2 3 690J 540 1160J 530 NJ
+levelinfo -pg 1 0 170 520 950 1300 1480
+pagesize -pg 1 -db -bbox -sgen -150 0 1650 710
+"
+}
+{
+   "da_axi4_cnt":"7",
+   "da_board_cnt":"3",
+   "da_clkrst_cnt":"18"
+}

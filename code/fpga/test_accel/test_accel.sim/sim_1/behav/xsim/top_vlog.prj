@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../test_accel.srcs/sources_1/imports/src/accelerator_types.sv" \
+"../../../../test_accel.srcs/sources_1/imports/src/accelerator_ctl.sv" \
+"../../../../test_accel.srcs/sim_1/imports/src/accelerator_ctl_tb.sv" \
+"../../../../test_accel.srcs/sources_1/imports/src/spad_arbiter.sv" \
+"../../../../test_accel.srcs/sim_1/imports/src/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/43e1/hdl/verilog" --include "../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/80cc/hdl/verilog" --include "../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/22b9/hdl/verilog" --include "../../../../pci_mig.gen/sources_1/bd/pci_mig/ipshared/ec67/hdl" --include "/tools/Xilinx/Vivado/2021.1/data/xilinx_vip/include" \
+"../../../../pci_mig.srcs/sources_1/new/accelerator.sv" \
+"../../../../pci_mig.srcs/sim_1/new/accelerator_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

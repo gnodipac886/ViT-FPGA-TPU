@@ -1,0 +1,61 @@
+{
+	"version": "1.0",
+	"modules": {
+		"pipeline_mac": {
+			"proto_instances": {
+				"/floating_point_0/M_AXIS_RESULT": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk"},
+						"ARESETN": { "actual": "aresetn"},
+						"TDATA": { "actual": "m_axis_result_tdata"},
+						"TREADY": { "actual": "m_axis_result_tready"},
+						"TVALID": { "actual": "m_axis_result_tvalid"}
+					}
+				},
+				"/floating_point_0/S_AXIS_A": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk"},
+						"ARESETN": { "actual": "aresetn"},
+						"TDATA": { "actual": "s_axis_a_tdata"},
+						"TREADY": { "actual": "s_axis_a_tready"},
+						"TVALID": { "actual": "s_axis_a_tvalid"}
+					}
+				},
+				"/floating_point_0/S_AXIS_B": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk"},
+						"ARESETN": { "actual": "aresetn"},
+						"TDATA": { "actual": "s_axis_b_tdata"},
+						"TREADY": { "actual": "s_axis_b_tready"},
+						"TVALID": { "actual": "s_axis_b_tvalid"}
+					}
+				},
+				"/floating_point_1/M_AXIS_RESULT": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk"},
+						"ARESETN": { "actual": "aresetn"},
+						"TDATA": { "actual": "m_axis_result_tdata"},
+						"TLAST": { "actual": "m_axis_result_tlast"},
+						"TREADY": { "actual": "m_axis_result_tready"},
+						"TVALID": { "actual": "m_axis_result_tvalid"}
+					}
+				},
+				"/floating_point_1/S_AXIS_A": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk"},
+						"ARESETN": { "actual": "aresetn"},
+						"TDATA": { "actual": "s_axis_a_tdata"},
+						"TLAST": { "actual": "s_axis_a_tlast"},
+						"TREADY": { "actual": "s_axis_a_tready"},
+						"TVALID": { "actual": "s_axis_a_tvalid"}
+					}
+				}
+			}
+		}
+	}
+}
