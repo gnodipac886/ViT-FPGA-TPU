@@ -1,8 +1,7 @@
 # ViT-FPGA-Accelerator
 FPGA based Vision Transformer accelerator (Harvard CS205)
 
-## NOTE: 
-FPGA 32x32 code was accidentally deleted from the `code/fpga` directory before the deadline, please see `code/cpu_code/fpga/` for the 32x32 configuration and `code/fpga` for the 16x16 config and testbenches.
+![accel_arch](images/accel_arch.png)
 
 # To Run ViT in libTorch (PyTorch C++ API)
 #### Go into the `code/code_cpu` directory
