@@ -26,8 +26,8 @@
 
 using namespace torch::indexing;
 
-extern "C" void gemm_padded(torch::Tensor mat_a, torch::Tensor mat_b, torch::Tensor mat_c);
-extern "C" void gemm_padded_ptr(float16_t * mat_a_ptr, float16_t * mat_b_ptr, float16_t * mat_c_ptr, int M, int K, int N);
+extern "C" float gemm_padded(torch::Tensor mat_a, torch::Tensor mat_b, torch::Tensor mat_c);
+extern "C" float gemm_padded_ptr(float16_t * mat_a_ptr, float16_t * mat_b_ptr, float16_t * mat_c_ptr, int M, int K, int N);
 // extern "C" void gemm_ptr(float16_t * mat_a_ptr, float16_t * mat_b_ptr, float16_t * mat_c_ptr, int M, int K, int N);
 extern "C" int  get_fpga_matrix_size();
 
@@ -155,9 +155,9 @@ void write_mat_ab_all(float16_t * mat_ab_buf, uint32_t fpga_num_mm, uint32_t mat
 
 // takes in 2 skewed and transposed matricies, writes back to mat_c_buf
 // fpga_num_mm should be an integer multiple of mat_m_size
-double fpga_gemm(float16_t * mat_a_buf, float16_t * mat_b_buf, float16_t * mat_c_buf, uint32_t fpga_num_mm, uint32_t mat_m_size, bool blocking, bool time) {
+float fpga_gemm(float16_t * mat_a_buf, float16_t * mat_b_buf, float16_t * mat_c_buf, uint32_t fpga_num_mm, uint32_t mat_m_size, bool blocking, bool time) {
 	struct timespec start, end;
-	double delta_s;
+	float delta_s;
 	uint64_t mat_ab_offset 		= fpga_num_mm * MATRIX_SIZE * MATRIX_SIZE * 2 * sizeof(float16_t);
 	uint64_t mat_c_size 		= OUT_MATRIX_BUF_SIZE;
 
@@ -178,9 +178,6 @@ double fpga_gemm(float16_t * mat_a_buf, float16_t * mat_b_buf, float16_t * mat_c
 	// TODO: RESET
 	// fpga_reg_write(I_RESET, R_ACCEL_INSTR);
 
-	if (time) {
-		clock_gettime(CLOCK_MONOTONIC_RAW, &start);
-	}
 
 	// write both matrix A and B into the FPGA DRAM
 	write_mat_ab_all(mat_ab_buf, fpga_num_mm, mat_m_size);
@@ -191,19 +188,27 @@ double fpga_gemm(float16_t * mat_a_buf, float16_t * mat_b_buf, float16_t * mat_c
 
 	// issue the gemm instruction
 	
+	if (time) {
+		clock_gettime(CLOCK_MONOTONIC_RAW, &start);
+	}
 	issue_accel_instr(I_R_MAT_A, blocking);
+
+	if (time) {
+		clock_gettime(CLOCK_MONOTONIC_RAW, &end);
+		uint64_t delta_us = (end.tv_sec - start.tv_sec) * 1000000 + (end.tv_nsec - start.tv_nsec) / 1000;
+		delta_s = float(delta_us) / 1000000.0;
+	}
 
 	read_to_buffer(READ_DEV_NAME, fpga_r_fd, (char *)(mat_c_buf), mat_c_size,  mat_c_addr);
 	// printf("matrix a addr: %x\n", mat_a_addr);
 	// printf("matrix b addr: %x\n", mat_b_addr);
 	// printf("matrix c addr: %x\n", mat_c_addr);
 
-	free(mat_ab_buf);
 	
+
+	free(mat_ab_buf);
+
 	if (time) {
-		clock_gettime(CLOCK_MONOTONIC_RAW, &end);
-		uint64_t delta_us = (end.tv_sec - start.tv_sec) * 1000000 + (end.tv_nsec - start.tv_nsec) / 1000;
-		delta_s = double(delta_us) / 1000000.0;
 		return delta_s;
 	}
 
@@ -235,9 +240,11 @@ double fpga_gemm(float16_t * mat_a_buf, float16_t * mat_b_buf, float16_t * mat_c
 // 	memcpy(mat_c_ptr, (void*)mat_c.data_ptr<at::Half>(), M * N * sizeof(float16_t));
 // }
 
-void gemm_padded_ptr(float16_t * mat_a_ptr, float16_t * mat_b_ptr, float16_t * mat_c_ptr, int M, int K, int N) {
+float gemm_padded_ptr(float16_t * mat_a_ptr, float16_t * mat_b_ptr, float16_t * mat_c_ptr, int M, int K, int N) {
 	fpga_w_fd = open(WRITE_DEV_NAME, O_RDWR);
 	fpga_r_fd = open(READ_DEV_NAME, O_RDWR);
+
+	float time = 0.0;
 
 	torch::Tensor mat_a = torch::from_blob(mat_a_ptr, {M, K}, torch::dtype(torch::kFloat16));
 	torch::Tensor mat_b = torch::from_blob(mat_b_ptr, {K, N}, torch::dtype(torch::kFloat16));
@@ -294,7 +301,7 @@ void gemm_padded_ptr(float16_t * mat_a_ptr, float16_t * mat_b_ptr, float16_t * m
 				// print_imatrix((float16_t *)tensor_a_skew_T.data_ptr<at::Half>(), num_sub_mat_K * MATRIX_SIZE * 2, MATRIX_SIZE, sizeof(float16_t));
 				// print_imatrix((float16_t *)tensor_b_skew_T.data_ptr<at::Half>(), num_sub_mat_K * MATRIX_SIZE * 2, MATRIX_SIZE, sizeof(float16_t));
 
-				double time = fpga_gemm(	(float16_t *)tensor_a_skew_T.data_ptr<at::Half>(), 
+				time += fpga_gemm(	(float16_t *)tensor_a_skew_T.data_ptr<at::Half>(), 
 											(float16_t *)tensor_b_skew_T.data_ptr<at::Half>(), 
 											(float16_t *)mat_c_tile.data_ptr<at::Half>(), 
 											num_sub_mat_K, 
@@ -315,12 +322,16 @@ void gemm_padded_ptr(float16_t * mat_a_ptr, float16_t * mat_b_ptr, float16_t * m
 	
 	close(fpga_w_fd);
 	close(fpga_r_fd);
+
+	return time;
 }
 
 // perform gemm on a padded matrix to multiples of MATRIX_SIZE
-void gemm_padded(torch::Tensor mat_a, torch::Tensor mat_b, torch::Tensor mat_c) { 
+float gemm_padded(torch::Tensor mat_a, torch::Tensor mat_b, torch::Tensor mat_c) { 
 	fpga_w_fd = open(WRITE_DEV_NAME, O_RDWR);
 	fpga_r_fd = open(READ_DEV_NAME, O_RDWR);
+
+	float time = 0.0;
 
 	int M = mat_a.size(0);  					// number of rows in A
 	int K = mat_a.size(1); 						// number of columns in B
@@ -376,7 +387,7 @@ void gemm_padded(torch::Tensor mat_a, torch::Tensor mat_b, torch::Tensor mat_c) 
 				// print_imatrix((float16_t *)tensor_a_skew_T.data_ptr<at::Half>(), num_sub_mat_K * MATRIX_SIZE * 2, MATRIX_SIZE, sizeof(float16_t));
 				// print_imatrix((float16_t *)tensor_b_skew_T.data_ptr<at::Half>(), num_sub_mat_K * MATRIX_SIZE * 2, MATRIX_SIZE, sizeof(float16_t));
 
-				double time = fpga_gemm(	(float16_t *)tensor_a_skew_T.data_ptr<at::Half>(), 
+				time += fpga_gemm(	(float16_t *)tensor_a_skew_T.data_ptr<at::Half>(), 
 											(float16_t *)tensor_b_skew_T.data_ptr<at::Half>(), 
 											(float16_t *)mat_c_tile.data_ptr<at::Half>(), 
 											num_sub_mat_K, 
@@ -395,6 +406,8 @@ void gemm_padded(torch::Tensor mat_a, torch::Tensor mat_b, torch::Tensor mat_c) 
 	
 	close(fpga_w_fd);
 	close(fpga_r_fd);
+
+	return time;
 }
 
 int main() {
