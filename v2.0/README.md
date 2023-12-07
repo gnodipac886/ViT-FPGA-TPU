@@ -1,7 +1,7 @@
 # ViT-FPGA-TPU v2.0
 FPGA based Vision Transformer accelerator (Harvard CS205)
 
-![accel_arch](../images/v2_arch.png)
+![accel_arch](../images/v2_accel_arch.png)
 ![accel_arch](../images/v2_bd.png)
 
 ## Contribution:
