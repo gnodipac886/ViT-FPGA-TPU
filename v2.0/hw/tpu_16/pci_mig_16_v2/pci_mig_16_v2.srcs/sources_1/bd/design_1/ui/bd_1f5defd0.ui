@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.648884",
+   "Default View_TopLeft":"-105,-174",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port pcie_7x_mgt_rtl -pg 1 -lvl 6 -x 1580 -y 160 -defaultsOSRD
+preplace port pcie_ref -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_sys_rst -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 2 -x 490 -y 210 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 830 -y 280 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 1 -x 170 -y 150 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 4 -x 1150 -y 80 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 5 -x 1430 -y 80 -defaultsOSRD
+preplace inst pci_mig_accelerator_0 -pg 1 -lvl 4 -x 1150 -y 330 -defaultsOSRD
+preplace netloc reset_rtl_1 1 0 2 NJ 220 NJ
+preplace netloc util_ds_buf_0_IBUF_OUT 1 1 1 320J 140n
+preplace netloc xdma_0_axi_aclk 1 2 2 680 190 990
+preplace netloc xdma_0_axi_aresetn 1 2 2 660 380 1000
+preplace netloc CLK_IN_D_0_1 1 0 1 NJ 150
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 4 1 N 70
+preplace netloc axi_bram_ctrl_1_BRAM_PORTB 1 4 1 N 90
+preplace netloc pci_mig_accelerator_0_m00_axi 1 2 3 690 370 980J 230 1300
+preplace netloc xdma_0_M_AXI 1 2 1 670 140n
+preplace netloc xdma_0_pcie_mgt 1 2 4 NJ 160 NJ 160 NJ 160 NJ
+preplace netloc smartconnect_0_M01_AXI 1 3 1 N 290
+preplace netloc smartconnect_0_M00_AXI 1 3 1 970 60n
+levelinfo -pg 1 0 170 490 830 1150 1430 1580
+pagesize -pg 1 -db -bbox -sgen -110 0 1750 430
+"
+}
+{
+   "da_axi4_cnt":"5",
+   "da_board_cnt":"8",
+   "da_bram_cntlr_cnt":"2",
+   "da_clkrst_cnt":"6",
+   "da_xdma_cnt":"3"
+}
