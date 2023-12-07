@@ -1,10 +1,13 @@
 from ctypes import *
 # import torch
 import numpy as np
+import time
+import psutil
 
 so_file = "../build/libfpga_gemm.so"
 lib = CDLL(so_file)
-print(lib.get_fpga_matrix_size())
+sys_size = lib.get_fpga_matrix_size()
+print(f"Systolic Array Size: {sys_size} x {sys_size}", )
 
 # def fpga_gemm(a: np.array, b: np.array) -> np.array:
 # 	so_file = "../build/libfpga_gemm.so"
@@ -28,7 +31,7 @@ def fpga_gemm_pad(a: np.array, b: np.array) -> np.array:
 	b_pad = np.zeros((k_pad, n_pad), dtype=np.float16)
 	c_pad = np.zeros((m_pad, n_pad), dtype=np.float16)
 
-	print(m_pad, k_pad, n_pad)
+	print(f"Padded Dimension: M: {m_pad}, K: {k_pad}, N: {n_pad}")
 
 	a_pad[:m, :k] = a
 	b_pad[:k, :n] = b
@@ -37,7 +40,7 @@ def fpga_gemm_pad(a: np.array, b: np.array) -> np.array:
 	c[:m, :n] = c_pad[:m, :n]
 	return np.round(c, 3)
 
-mat_size = 50
+mat_size = 150
 
 a = np.random.rand(mat_size, mat_size).astype(np.float16) / 10
 # a = np.ones((mat_size, mat_size), dtype=np.float16)
@@ -50,6 +53,35 @@ b = np.random.rand(mat_size, mat_size).astype(np.float16) / 10
 # print(c[:16, :16])
 # print(np.matmul(a, b)[:16, :16])
 
+fpga_freq = 200e6
+start = time.time()
 c = fpga_gemm_pad(a, b)
-print(c[-10:, -10:])
-print(np.matmul(a, b)[-10:, -10:])
+end = time.time()
+time_elapsed = end - start
+throughput_per_second = mat_size ** 3 / time_elapsed / 1e9
+cycles = int(time_elapsed * fpga_freq)
+throughput_per_cycle = mat_size ** 3 / (time_elapsed * fpga_freq)
+print()
+print(f"FPGA Time: {time_elapsed:.3f} s")
+print(f"FPGA Cycles: {cycles}")
+print(f"FPGA Throughput per second: {throughput_per_second:.3f} GFLOPS (fp16)")
+print(f'FPGA Throughput per cycle: {throughput_per_cycle:.3f} GFLOP/cycle (fp16)')
+print()
+
+start = time.time()
+c = a @ b
+end = time.time()
+# cpu_freq = psutil.cpu_freq().current * 1e6
+cpu_freq = psutil.cpu_freq().max * 1e6
+time_elapsed = end - start
+throughput_per_second = mat_size ** 3 / time_elapsed / 1e9
+cycles = int(time_elapsed * cpu_freq)
+throughput_per_cycle = mat_size ** 3 / (time_elapsed * cpu_freq)
+print(f"CPU Time: {time_elapsed:.3f} s")
+print(f"CPU Cycles: {cycles}")
+print(f"CPU Throughput per second: {throughput_per_second:.3f} GFLOPS (fp16)")
+print(f'CPU Throughput per cycle: {throughput_per_cycle:.3f} GFLOP/cycle (fp16)')
+
+
+# print(c[-10:, -10:])
+# print(np.matmul(a, b)[-10:, -10:])
