@@ -28,7 +28,7 @@ target_sources(${EXECUTABLE_NAME} PRIVATE main.cpp
   fpga.h
 )
 target_link_libraries(main "${TORCH_LIBRARIES}")
-set_property(TARGET main PROPERTY CXX_STANDARD 14)
+set_property(TARGET main PROPERTY CXX_STANDARD 17)
 
 # The following code block is suggested to be used on Windows.
 # According to https://github.com/pytorch/pytorch/issues/25457,
